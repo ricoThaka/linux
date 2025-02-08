@@ -255,20 +255,21 @@ font-family: 'Kanit', sans-serif;
   [Index of /pub/fedora/linux/releases](https://dl.fedoraproject.org/pub/fedora/linux/releases/)
   <img src="https://images.genius.com/a1cb107c48d4cc842754b23e69ac9005.1000x617x1.jpg">
     <iframe style="border-radius:0px" src="https://open.spotify.com/embed/track/0z67oSdgxP2bjzv7ZBpO3x?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-      # [Enter The Dragon [ 1973] 816p](https://en.wikipedia.org/wiki/Vertigo_(film))
 
-      <video controls preload="none" width="100%" height="auto" poster="https://i.etsystatic.com/29534914/r/il/0f268e/5497958111/il_794xN.5497958111_ivqi.jpg">
+ # [Enter The Dragon [ 1973] 816p](https://en.wikipedia.org/wiki/Vertigo_(film))
 
-        <source src="https://archive.org/download/cinema_bucanero_202306/Enter%20The%20Dragon%20%5B1973%5D816p.mp4" />
+<video controls preload="none" width="100%" height="auto" poster="https://i.etsystatic.com/29534914/r/il/0f268e/5497958111/il_794xN.5497958111_ivqi.jpg">
+
+<source src="https://archive.org/download/cinema_bucanero_202306/Enter%20The%20Dragon%20%5B1973%5D816p.mp4" />
 
         Sorry, your browser doesn't support embedded videos, but don't worry, you can
-        <a href="https://archive.org/download/cinema_bucanero_202306/Enter%20The%20Dragon%20%5B1973%5D816p.mp4">download it</a>
+<a href="https://archive.org/download/cinema_bucanero_202306/Enter%20The%20Dragon%20%5B1973%5D816p.mp4">download it</a>
         and watch it with your favorite video player!
       </video>
-      <img src="https://pbs.twimg.com/media/GHhryv7aUAEygHp?format=jpg&name=large" class="crt" />
+<img src="https://pbs.twimg.com/media/GHhryv7aUAEygHp?format=jpg&name=large" class="crt" />
 
-      # Android as a Linux device
-      <video controls src="https://raw.githubusercontent.com/ricoThaka/ricothaka.github.io/master/assets/video/gpfNLfVwUjnY2NBJ.mp4" poster="https://raw.githubusercontent.com/ricoThaka/ricothaka.github.io/717bdfc9eefe7dc338019b841635c555798a6edc/unixing/db0734b6-b4e2-4e28-be1b-30dff5fb66e05450003096811573599.jpg" width="100%">
+# Android as a Linux device
+<video controls src="https://raw.githubusercontent.com/ricoThaka/ricothaka.github.io/master/assets/video/gpfNLfVwUjnY2NBJ.mp4" poster="https://raw.githubusercontent.com/ricoThaka/ricothaka.github.io/717bdfc9eefe7dc338019b841635c555798a6edc/unixing/db0734b6-b4e2-4e28-be1b-30dff5fb66e05450003096811573599.jpg" width="100%">
         Sorry, your browser doesn't support embedded videos, but don't worry, you can
         <a href="https://raw.githubusercontent.com/ricoThaka/ricothaka.github.io/master/assets/video/gpfNLfVwUjnY2NBJ.mp4">download it</a>
         and watch it with your favorite video player!
@@ -277,7 +278,7 @@ font-family: 'Kanit', sans-serif;
       <h2 id="curiosity-raw-images">CURIOSITY RAW IMAGES</h2>
       <h3 id="broken-wheel">Broken wheel?</h3>
 
-      <p>This image was taken by Left Navigation Camera onboard <a href="https://mars.nasa.gov/msl/multimedia/raw-images/?order=sol+desc%2Cinstrument_sort+asc%2Csample_type_sort+asc%2C+date_taken+desc&amp;per_page=50&amp;page=0&amp;mission=msl">NASA’s Mars rover Curiosity</a> on Sol 4185 (2024-05-15 04:55:27 UTC).</p>
+<p>This image was taken by Left Navigation Camera onboard <a href="https://mars.nasa.gov/msl/multimedia/raw-images/?order=sol+desc%2Cinstrument_sort+asc%2Csample_type_sort+asc%2C+date_taken+desc&amp;per_page=50&amp;page=0&amp;mission=msl">NASA’s Mars rover Curiosity</a> on Sol 4185 (2024-05-15 04:55:27 UTC).</p>
 <h2>Mary J Blige :: Growing Pains</h2>
     See, today I'm havin' one of them days where
   
