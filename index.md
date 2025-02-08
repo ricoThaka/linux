@@ -1,8 +1,8 @@
 <html>
 
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
   /*
   
   font-family: 'Bungee', cursive;
@@ -10,93 +10,7 @@
   */
   
   
-  html {
-    background: #042940;
-    
-  }
-  body {
-      margin:50px 0px; padding:0px;
-    font-family: 'Kanit', sans-serif;
-    text-align:center;
-    color:white;
-      }
-  
-  h1 {
-    font-family: 'Bungee', cursive;
-    font-size: 4em;
-  }
-      
-  #Content {
-      width:50%;
-    font-family: 'Kanit', sans-serif;
-      margin:20px auto;
-      text-align:left;
-      padding:15px;
-      border:4px solid #005C53;
-      background-color:#D6D58E;
-    box-shadow: 50px 7px #DBF227;
-    
-      }
-  
-  img {
-    width:100%;
-  }
-  
-  #post_content {
-    
-  }
-  
-  /* Animate the size, outside */
-  .pulse:hover, 
-  .pulse:focus {
-    animation: pulse 1s;
-    box-shadow: 0 0 0 2em transparent;
-  }
-  
-  @keyframes pulse {
-    0% { box-shadow: 0 0 0 0 var(--hover); }
-  }
-  
-  
-  /* ------------- */
-      
-  .some-page-wrapper {
-    margin: 1px;
-    background-color: ##23b2ff;
-  }
-  
-  .row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-  }
-  
-  .column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-    overflow: hidden;
-  }
-  
-  .double-column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 2;
-    overflow: hidden;
-  }
-  
-  .blue-column {
-    background-color: #23ff32;
-    
-  }
-  
-  .green-column {
-      
-      background-color: #c9ff23;
-  }	
+
     /*
   
   font-family: 'Bungee', cursive;
