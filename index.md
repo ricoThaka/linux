@@ -1,172 +1,262 @@
 <html>
 
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-  /*
-  
-  font-family: 'Bungee', cursive;
-  font-family: 'Kanit', sans-serif;
-  */
-  
-  
+/*
 
-    /*
+font-family: 'Bungee', cursive;
+font-family: 'Kanit', sans-serif;
+*/
+
+
+html {
+  background: #042940;
   
-  font-family: 'Bungee', cursive;
+}
+body {
+	margin:50px 0px; padding:0px;
   font-family: 'Kanit', sans-serif;
-  */
-    html {
-      background: #042940;
-    }
+  text-align:center;
+  color:white;
+	}
+  #Content {
+    display: grid;
+    width: 50%;
+    font-family: 'Kanit', sans-serif;
+    margin: 20px auto;
+    text-align: left;
+    padding: 15px;
+    border: 4px solid #005C53;
+    background-color: #D6D58E;
+    box-shadow: 50px 7px #DBF227;
+  }
+h1 {
+  font-family: 'Bungee', cursive;
+  font-size: 4em;
+}
+
+
+iframe {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+	
+
+
+img {
+  width:100%;
+}
+
+#post_content {
   
-    body {
-      margin: 50px 0px;
-      padding: 0px;
-      font-family: 'Kanit', sans-serif;
-      text-shadow: 5px 5px #9FC131;
-      text-align: center;
-      color: white;
-    }
+}
+
+/* Animate the size, outside */
+.pulse:hover, 
+.pulse:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 var(--hover); }
+}
+
+
+/* ------------- */
+	
+.some-page-wrapper {
+  margin: 1px;
+  background-color: ##23b2ff;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  overflow: hidden;
+}
+
+.double-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 2;
+  overflow: hidden;
+}
+
+.blue-column {
+  background-color: #23ff32;
   
-    .fill:hover,
-    .fill:focus {
-      box-shadow: inset 0 0 0 2em var(--hover);
+}
+
+.green-column {
+    
+    background-color: #c9ff23;
+}	
+  /*
+
+font-family: 'Bungee', cursive;
+font-family: 'Kanit', sans-serif;
+*/
+  html {
+    background: #042940;
+  }
+
+  body {
+    margin: 50px 0px;
+    padding: 0px;
+    font-family: 'Kanit', sans-serif;
+    text-shadow: 5px 5px #9FC131;
+    text-align: center;
+    color: white;
+  }
+
+  .fill:hover,
+  .fill:focus {
+    box-shadow: inset 0 0 0 2em var(--hover);
+  }
+
+  .pulse:hover,
+  .pulse:focus {
+    animation: pulse 1s;
+    box-shadow: 0 0 0 2em transparent;
+  }
+
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 var(--hover);
     }
-  
-    .pulse:hover,
-    .pulse:focus {
-      animation: pulse 1s;
-      box-shadow: 0 0 0 2em transparent;
-    }
-  
-    @keyframes pulse {
-      0% {
-        box-shadow: 0 0 0 0 var(--hover);
-      }
-    }
-  
-    .close:hover,
-    .close:focus {
+  }
+
+  .close:hover,
+  .close:focus {
+    box-shadow:
+      inset -3.5em 0 0 0 var(--hover),
+      inset 3.5em 0 0 0 var(--hover);
+  }
+
+  .raise:hover,
+  .raise:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+  }
+
+  .up:hover,
+  .up:focus {
+    box-shadow: inset 0 -3.25em 0 0 var(--hover);
+  }
+
+  .slide:hover,
+  .slide:focus {
+    box-shadow: inset 6.5em 0 0 0 var(--hover);
+  }
+
+  .offset {
+    box-shadow:
+      0.3em 0.3em 0 0 var(--color),
+      inset 0.3em 0.3em 0 0 var(--color);
+
+    &:hover,
+    &:focus {
       box-shadow:
-        inset -3.5em 0 0 0 var(--hover),
-        inset 3.5em 0 0 0 var(--hover);
+        0 0 0 0 var(--hover),
+        inset 6em 3.5em 0 0 var(--hover);
     }
-  
-    .raise:hover,
-    .raise:focus {
-      box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
-      transform: translateY(-0.25em);
+  }
+
+  $colors: (fill: #a972cb,
+    pulse: #ef6eae,
+    close: #ff7f82,
+    raise: #ffa260,
+    up: #e4cb58,
+    slide: #8fc866,
+    offset: #19bc8b);
+
+  @each $button,
+  $color in $colors {
+    .#{$button} {
+      --color: #{$color};
+      --hover: #{adjust-hue($color, 45deg)};
     }
-  
-    .up:hover,
-    .up:focus {
-      box-shadow: inset 0 -3.25em 0 0 var(--hover);
+  }
+
+  button {
+    color: var(--color);
+    transition: 0.25s;
+
+    &:hover,
+    &:focus {
+      border-color: var(--hover);
+      color: #fff;
     }
-  
-    .slide:hover,
-    .slide:focus {
-      box-shadow: inset 6.5em 0 0 0 var(--hover);
-    }
-  
-    .offset {
-      box-shadow:
-        0.3em 0.3em 0 0 var(--color),
-        inset 0.3em 0.3em 0 0 var(--color);
-  
-      &:hover,
-      &:focus {
-        box-shadow:
-          0 0 0 0 var(--hover),
-          inset 6em 3.5em 0 0 var(--hover);
-      }
-    }
-  
-    $colors: (fill: #a972cb,
-      pulse: #ef6eae,
-      close: #ff7f82,
-      raise: #ffa260,
-      up: #e4cb58,
-      slide: #8fc866,
-      offset: #19bc8b);
-  
-    @each $button,
-    $color in $colors {
-      .#{$button} {
-        --color: #{$color};
-        --hover: #{adjust-hue($color, 45deg)};
-      }
-    }
-  
-    button {
-      color: var(--color);
-      transition: 0.25s;
-  
-      &:hover,
-      &:focus {
-        border-color: var(--hover);
-        color: #fff;
-      }
-    }
-  
-    button {
-      background: none;
-      border: 2px solid;
-      font: inherit;
-      line-height: 1;
-      margin: 0.5em;
-      padding: 1em 2em;
-    }
-  
-    h1 {
-      font-weight: 400;
-    }
-  
-    code {
-      color: #e4cb58;
-      font: inherit;
-    }
-  
-    h1 {
-      font-family: 'Bungee', cursive;
-      font-size: 4em;
-    }
-  
-    #Content {
-      width: 50%;
-      font-family: 'Kanit', sans-serif;
-      margin: 20px auto;
-      text-align: left;
-      padding: 15px;
-      border: 4px solid #005C53;
-      background-color: #D6D58E;
-      box-shadow: 50px 7px #DBF227;
-    }
-  
-    img {
-      width: 100%;
-    }
-  
-  </style>
+  }
+
+  button {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+  }
+
+  h1 {
+    font-weight: 400;
+  }
+
+  code {
+    color: #e4cb58;
+    font: inherit;
+  }
+
+  h1 {
+    font-family: 'Bungee', cursive;
+    font-size: 4em;
+  }
+
+
+
+  img {
+    width: 100%;
+  }
+
+</style>
   <body>
-    <main>
+    <main id="Content" markdown="1">
 ## RashardKellyNASAJPL
 # LinuxNotes 
 
-  
-  <div id="Content" markdown="1">
 
+  
+  <div >
+
+[Configuring Jekyll in your GitHub Pages site](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll)
 
 # AT&T Archives: The UNIX Operating System
 @nasa @nasa-jpl @blackgirlscode @normani I forked the Linux Kernel for M_R_O Jamie, we can build from this if we are to remain [heterogeneuos](https://en.wikipedia.org/wiki/Homogeneity_and_heterogeneity) `/ˌhedərəˈjēnēəs/`  @whitehouse 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tc4ROCJYbm0?si=dgjIU-Lykc63CG98" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+[PowerPuffGirls](https://x.com/BubbleGumPop510/status/1723491903117922417)
+ ![KASHDOLL](https://pbs.twimg.com/media/F-sSiK8aMAAQ2AC?format=jpg&name=large)
+![JT_KASH_GLO?](https://pbs.twimg.com/media/GjOh-70aQAMkraB?format=jpg&name=large)
 
 ![BASH](https://bashlogo.com/img/logo/png/full_colored_light.png)
-   [Index of /pub/fedora/linux/releases](https://dl.fedoraproject.org/pub/fedora/linux/releases/)
+  [Index of /pub/fedora/linux/releases](https://dl.fedoraproject.org/pub/fedora/linux/releases/)
   <img src="https://images.genius.com/a1cb107c48d4cc842754b23e69ac9005.1000x617x1.jpg">
     <iframe style="border-radius:0px" src="https://open.spotify.com/embed/track/0z67oSdgxP2bjzv7ZBpO3x?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    <h2>Mary J Blige :: Growing Pains</h2>
+
+<h2>Mary J Blige :: Growing Pains</h2>
     See, today I'm havin' one of them days where
   
   I just don't wanna be bothered
@@ -503,6 +593,8 @@
   </pre>
   </div>
   
+ 
+
   <div id="Content">
     <h2>Centering: Auto-width Margins</h2>
     <iframe width="100%" height="480" src="https://www.youtube.com/embed/w6qcafgLHe4" title="Eric Burdon & War Spill The Wine  " Original Record Release"" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
