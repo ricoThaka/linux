@@ -240,7 +240,7 @@ font-family: 'Kanit', sans-serif;
 # LinuxNotes 
 
 
-  @nasa @whitehouse @nasa-jpl This is Rashard Kelly MRO, i have had bizarre playback on hot1079 @ajc in hollywood. The ppl that playboy brought over wanna go home in general. Im really upset I have to wait an idk what @ucla put in my ankle, idk what @blackgirlscode @normani was saying to ppl for me to get disabled!? Her world is so inaccessible I never thought id be touched! I have an Ed Tutorial on the dev site 
+  @nasa @whitehouse @nasa-jpl This is Rashard Kelly MRO, i have had bizarre playback on hot1079 @ajcnews in hollywood. The ppl that playboy brought over wanna go home in general. Im really upset I have to wait an idk what @ucla put in my ankle, idk what @blackgirlscode @normani was saying to ppl for me to get disabled!? Her world is so inaccessible I never thought id be touched! I have an Ed Tutorial on the dev site 
 [Discovering ed: the gnu editor](https://ricothaka.github.io/GNU-ed)
 ![gnu_ED on rikothaka.github.io](https://pbs.twimg.com/media/GlehG1bbwAEIUCA?format=jpg&name=large)
 
