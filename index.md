@@ -1,7 +1,7 @@
 <html>
 
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /*
 
@@ -15,10 +15,11 @@ html {
   
 }
 body {
-	margin:50px 0px; padding:0px;
+	margin:auto auto; padding:0px;
   font-family: 'Kanit', sans-serif;
   text-align:center;
   color:white;
+  word-break: break-word;
 	}
   #Content {
     display: grid;
@@ -29,11 +30,11 @@ body {
     padding: 15px;
     border: 4px solid #005C53;
     background-color: #D6D58E;
-    box-shadow: 50px 7px #DBF227;
+    box-shadow: 50px 7px #DBF22750;
   }
 h1 {
   font-family: 'Bungee', cursive;
-  font-size: 4em;
+  font-size: 3em;
 }
 
 
@@ -234,12 +235,16 @@ font-family: 'Kanit', sans-serif;
 </style>
   <body>
     <main id="Content" markdown="1">
-## RashardKellyNASAJPL
+
+## Rashard Kelly @NASA-JPL
 # LinuxNotes 
 
 
-  
-  <div >
+  @nasa @whitehouse @nasa-jpl This is Rashard Kelly MRO, i have had bizarre playback on hot1079 @ajc in hollywood. The ppl that playboy brought over wanna go home in general. Im really upset I have to wait an idk what @ucla put in my ankle, idk what @blackgirlscode @normani was saying to ppl for me to get disabled!? Her world is so inaccessible I never thought id be touched! I have an Ed Tutorial on the dev site 
+[Discovering ed: the gnu editor](https://ricothaka.github.io/GNU-ed)
+![gnu_ED on rikothaka.github.io](https://pbs.twimg.com/media/GlehG1bbwAEIUCA?format=jpg&name=large)
+
+<blockquote class="twitter-tweet"><p lang="qme" dir="ltr"><a href="https://twitter.com/RepKarenBass?ref_src=twsrc%5Etfw">@RepKarenBass</a> <a href="https://twitter.com/Power106LA?ref_src=twsrc%5Etfw">@Power106LA</a> <a href="https://twitter.com/NASAJPL?ref_src=twsrc%5Etfw">@nasajpl</a> <a href="https://twitter.com/hashtag/grad?src=hash&amp;ref_src=twsrc%5Etfw">#grad</a> <a href="https://t.co/dZ8s8RgZlD">pic.twitter.com/dZ8s8RgZlD</a></p>&mdash; ricoThaka (@RicoThaka) <a href="https://twitter.com/RicoThaka/status/1893023150260301902?ref_src=twsrc%5Etfw">February 21, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 [Configuring Jekyll in your GitHub Pages site](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll)
 
