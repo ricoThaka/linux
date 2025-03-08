@@ -24,7 +24,7 @@ body {
   #Content {
     display: flex;
     width: 70vw;
-height:auto;
+height:100vh;
     font-family: 'Kanit', sans-serif;
     margin: 20px auto;
     text-align: left;
