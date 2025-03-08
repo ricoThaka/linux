@@ -15,7 +15,7 @@ html {
   
 }
 body {
-	margin:auto auto; padding:0px;
+	padding:0px;
   font-family: 'Kanit', sans-serif;
   text-align:center;
   color:white;
