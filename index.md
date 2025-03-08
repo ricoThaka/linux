@@ -17,12 +17,13 @@ html {
 body {
 	padding:0px;
   font-family: 'Kanit', sans-serif;
-  text-align:center;
-  color:white;
-  word-break: break-word;
+  
+  
 	}
   #Content {
-    display: flex;
+color:white;
+  word-break: break-word;
+    display: block;
     width: 70vw;
 height:100vh;
     font-family: 'Kanit', sans-serif;
@@ -42,14 +43,10 @@ h1 {
 iframe {
   width: 100%;
   display: block;
-  text-align: center;
+ 
 }
 	
 
-
-img {
-  width:100%;
-}
 
 #post_content {
   
@@ -111,118 +108,9 @@ img {
 font-family: 'Bungee', cursive;
 font-family: 'Kanit', sans-serif;
 */
-  html {
-    background: #042940;
-  }
+
 
   
-
-  .fill:hover,
-  .fill:focus {
-    box-shadow: inset 0 0 0 2em var(--hover);
-  }
-
-  .pulse:hover,
-  .pulse:focus {
-    animation: pulse 1s;
-    box-shadow: 0 0 0 2em transparent;
-  }
-
-  @keyframes pulse {
-    0% {
-      box-shadow: 0 0 0 0 var(--hover);
-    }
-  }
-
-  .close:hover,
-  .close:focus {
-    box-shadow:
-      inset -3.5em 0 0 0 var(--hover),
-      inset 3.5em 0 0 0 var(--hover);
-  }
-
-  .raise:hover,
-  .raise:focus {
-    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
-    transform: translateY(-0.25em);
-  }
-
-  .up:hover,
-  .up:focus {
-    box-shadow: inset 0 -3.25em 0 0 var(--hover);
-  }
-
-  .slide:hover,
-  .slide:focus {
-    box-shadow: inset 6.5em 0 0 0 var(--hover);
-  }
-
-  .offset {
-    box-shadow:
-      0.3em 0.3em 0 0 var(--color),
-      inset 0.3em 0.3em 0 0 var(--color);
-
-    &:hover,
-    &:focus {
-      box-shadow:
-        0 0 0 0 var(--hover),
-        inset 6em 3.5em 0 0 var(--hover);
-    }
-  }
-
-  $colors: (fill: #a972cb,
-    pulse: #ef6eae,
-    close: #ff7f82,
-    raise: #ffa260,
-    up: #e4cb58,
-    slide: #8fc866,
-    offset: #19bc8b);
-
-  @each $button,
-  $color in $colors {
-    .#{$button} {
-      --color: #{$color};
-      --hover: #{adjust-hue($color, 45deg)};
-    }
-  }
-
-  button {
-    color: var(--color);
-    transition: 0.25s;
-
-    &:hover,
-    &:focus {
-      border-color: var(--hover);
-      color: #fff;
-    }
-  }
-
-  button {
-    background: none;
-    border: 2px solid;
-    font: inherit;
-    line-height: 1;
-    margin: 0.5em;
-    padding: 1em 2em;
-  }
-
-  h1 {
-    font-weight: 400;
-  }
-
-  code {
-    color: #e4cb58;
-    font: inherit;
-  }
-
- 
-
-
-
-  img {
-    width: 100%;
-  }
-
 </style>
   <body>
     <main id="Content" markdown="1">
