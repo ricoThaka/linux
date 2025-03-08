@@ -114,14 +114,7 @@ font-family: 'Kanit', sans-serif;
     background: #042940;
   }
 
-  body {
-    margin: 50px 0px;
-    padding: 0px;
-    font-family: 'Kanit', sans-serif;
-    text-shadow: 5px 5px #9FC131;
-    text-align: center;
-    color: white;
-  }
+  
 
   .fill:hover,
   .fill:focus {
