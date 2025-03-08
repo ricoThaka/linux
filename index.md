@@ -245,7 +245,10 @@ font-family: 'Kanit', sans-serif;
 
 [PowerPuffGirls](https://x.com/BubbleGumPop510/status/1723491903117922417)
  ![KASHDOLL](https://pbs.twimg.com/media/F-sSiK8aMAAQ2AC?format=jpg&name=large)
+
 ![JT_KASH_GLO?](https://pbs.twimg.com/media/GjOh-70aQAMkraB?format=jpg&name=large)
+
+![√](https://pbs.twimg.com/media/GBq6J1Vb0AArVRX?format=jpg&name=large)
 
 ![BASH](https://bashlogo.com/img/logo/png/full_colored_light.png)
   [Index of /pub/fedora/linux/releases](https://dl.fedoraproject.org/pub/fedora/linux/releases/)
