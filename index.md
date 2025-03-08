@@ -22,7 +22,7 @@ body {
   word-break: break-word;
 	}
   #Content {
-    display: grid;
+    display: flex;
     width: 70vw;
 height:auto;
     font-family: 'Kanit', sans-serif;
