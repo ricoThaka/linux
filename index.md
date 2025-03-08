@@ -450,7 +450,7 @@ font-family: 'Kanit', sans-serif;
     <br>
   Mary J. Blige
    </div>
-  
+  <!--
   <div id="Content">
    
    <div class='row'>
@@ -612,7 +612,7 @@ font-family: 'Kanit', sans-serif;
   </pre>
   </div>
   
- 
+ -->
 
   <div id="Content">
     <h2>Centering: Auto-width Margins</h2>
